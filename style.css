@@ -1,0 +1,177 @@
+/* CSS for container */
+
+.container {
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  font-family: sans-serif;
+  /* border: 5px solid black; */
+}
+
+/* CSS for navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #7e2121cd;
+  box-shadow: 5px 5px 5px black;
+  padding: 10px;
+}
+
+.logo {
+  color: rgb(100, 55, 55);
+  padding-left: 10%;
+}
+
+.logo span {
+  color: rgb(163, 51, 51);
+  font-weight: 900;
+}
+
+.logo:hover {
+  color: rgb(255, 0, 0);
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin-right: 30px;
+}
+
+.navbar ul li a {
+  font-size: 25px;
+  color: #000000;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar ul li a:hover {
+  color: #ff0000;
+}
+
+/* CSS for Home  */
+
+.home img {
+  width: 30%;
+  margin-top: 3%;
+  border-radius: 50%;
+  box-shadow: 10px 10px 10px black;
+}
+.home p{
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.2;
+  letter-spacing:0.1cm;
+}
+.home span{
+  color: red;
+  font-size: 35px;
+}
+
+.home button{
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgb(185, 173, 173);
+  color: white;
+}
+.home button:hover{
+  background-color: rgb(255, 0, 0);
+}
+
+/* CSS for about section */
+
+.about{
+border: 1px solid rgb(255, 255, 255);
+margin: 10%;
+}
+.about h1{
+  margin:5% ;
+  font-size: 50px;
+
+}
+.about p{
+font-size: 30px;
+text-indent: 80px;
+line-height: 1.5;
+text-align: justify;
+}
+
+/* CSS for search section */
+.search{
+  border: 1px solid rgb(255, 255, 255);
+  margin: 10%;
+  }
+  .search h1{
+    margin:5% ;
+    font-size: 50px;
+  
+  }
+  .search p{
+  font-size: 30px;
+  text-indent: 80px;
+  line-height: 1.5;
+  text-align: justify;
+  }
+
+/* CSS for contact section */
+.contact{
+  /* border: 1px solid red; */
+  margin: 10px;
+  padding: 10px;
+}
+.contact h1{
+  font-size: 40px;
+}
+.contact p{
+  font-size: 20px;
+  line-height: 1.9;
+}
+section img{
+  width: 25px;
+  margin-right: 3px;
+}
+
+form{
+  border: 1px solid black;
+  background-color: rgb(236, 236, 236);
+  width: 50%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px black;
+}
+
+input{
+  padding: 5px;
+  width: auto;
+  margin: 10px;
+}
+.email{
+  width: 380px;
+}
+
+textarea{
+  width: 380px;
+  height: 50px;
+}
+
+form button{
+  margin: 10px;
+  font-size: 15px;
+  color: #000000;
+}
+
+footer{
+  background-color: rgb(131, 59, 59);
+  color: rgb(255, 255, 255);
+  padding: 5px;
+}
